@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
 
 
-        String[] stores = new String[2];
+        Store[] stores = new Store[2];
 
         Console.printCommands();
         String action = Console.read();
@@ -39,9 +39,8 @@ public class Main {
                     Store.printStores(stores);
                     System.out.println("Enter store name from above you want to view");
                     String name3 = Console.read();
+                    Store.viewStore(name3, stores);
 
-
-                    Store.printStores(stores);
                     break;
 
                 case "4":

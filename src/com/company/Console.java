@@ -20,7 +20,7 @@ public class Console {
         System.out.println("Please choose an option what you want to do: ");
         System.out.println("1-Add product and quantity");
         System.out.println("2-Delete product");
-        System.out.println("3-Exit");
+        System.out.println("4-Exit");
 
         //System.out.println("Please choose what you want to do: ");
 
